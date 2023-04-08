@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Favorites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="/js/main.js" type="module" defer></script>
+</head>
+<body>
+
+    <div class="hero">
+        <header>
+            <H1>Github Favorites</H1>
+            <div class="searchHero">
+                <label class="sr-only" for="search">Usuário do Github</label>
+                <input id="search" type="text" placeholder="Usuário do Github">
+                <button>&plus;</button>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <thead>
+                        <tr>
+                            <th>Usuário</th>
+                            <th>Repositórios</th>
+                            <th>Followers</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td class="heroUser">
+                            <img src="https://github.com/maykbrito.png" alt="">
+                            <a href="https://github.com/maykbrito" target="_blank">
+                                <p>Mayk Brito</p>
+                                <span>maykbrito</span>
+                            </a>
+                        </td>
+                        <td class="heroRepo">
+                            76
+                        </td>
+                        <td class="heroFollow">
+                            9589
+                        </td>
+                        <td>
+                            <button class="heroRemove">&times;</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="heroUser">
+                            <img src="https://github.com/diego3g.png" alt="">
+                            <a href="https://github.com/diego3g" target="_blank">
+                                <p>Diego Fernandes</p>
+                                <span>diego3g</span>
+                            </a>
+                        </td>
+                        <td class="heroRepo">
+                            48
+                        </td>
+                        <td class="heroFollow">
+                            22503
+                        </td>
+                        <td>
+                            <button class="heroRemove" >&times;</button>
+                        </td>
+                    </tr>
+                
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+    
+</body>
+</html>
