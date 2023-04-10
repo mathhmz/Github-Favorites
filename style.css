@@ -147,6 +147,7 @@ td.heroUser{
     border: none;
 
     color: red;
+    cursor: pointer;
 }
 
 .heroUser img{
